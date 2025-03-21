@@ -18,14 +18,14 @@ export const metadata: Metadata = {
     type: 'website',
     url: 'https://sacred.computer',
   },
-  twitter: {
-    card: 'summary_large_image',
-    description: Package.description,
-    handle: '@internetxstudio',
-    images: ['https://intdev-global.s3.us-west-2.amazonaws.com/public/internet-dev/57a5715d-d332-47d0-8ec8-40cfa75bf36f.png'],
-    title: Package.name,
-    url: 'https://sacred.computer',
-  },
+  // twitter: {
+  //   card: 'summary_large_image',
+  //   description: Package.description,
+  //   handle: '@internetxstudio',
+  //   images: ['https://intdev-global.s3.us-west-2.amazonaws.com/public/internet-dev/57a5715d-d332-47d0-8ec8-40cfa75bf36f.png'],
+  //   title: Package.name,
+  //   url: 'https://sacred.computer',
+  // },
   icons: {
     apple: [{ url: '/apple-touch-icon.png' }, { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }],
     icon: '/favicon-32x32.png',
