@@ -108,7 +108,7 @@ const AS400 = () => {
       <Card>
         <Table style={{ minWidth: '71ch' }}>
           <TableRow>
-            <TableColumn>&nbsp;&nbsp;&nbsp;&nbsp;Option: 1337...&nbsp;&nbsp; Copy: US&nbsp;&nbsp;&nbsp;&nbsp;ITEM ACTIVITY INQUIRY</TableColumn>
+            <TableColumn>&nbsp;&nbsp;&nbsp;&nbsp;Option: 1337...&nbsp;&nbsp; Copy: US&nbsp;&nbsp;&nbsp;&nbsp;IMAGE METADATA ANALYSIS</TableColumn>
             <TableColumn style={{ textAlign: 'right' }}>IND333</TableColumn>
           </TableRow>
           <TableRow>
@@ -116,25 +116,25 @@ const AS400 = () => {
             <TableColumn style={{ textAlign: 'right' }}></TableColumn>
           </TableRow>
           <TableRow>
-            <TableColumn>&nbsp;&nbsp;&nbsp;&nbsp;Item #: 6666666</TableColumn>
+            <TableColumn>&nbsp;&nbsp;&nbsp;&nbsp;Item #: 23</TableColumn>
             <TableColumn style={{ textAlign: 'right' }}></TableColumn>
           </TableRow>
-          <TableRow>
+          {/* <TableRow>
             <TableColumn>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GMO HONEYDEW MELON USDA PRIME 72 OZ</TableColumn>
             <TableColumn style={{ textAlign: 'right' }}></TableColumn>
-          </TableRow>
+          </TableRow> */}
         </Table>
         <br />
         <br />
         <Table style={{ minWidth: '71ch' }}>
           <TableRow>
-            <TableColumn>Warehouse</TableColumn>
-            <TableColumn style={{ textAlign: 'right' }}>On Hand</TableColumn>
-            <TableColumn style={{ textAlign: 'right' }}>On Order</TableColumn>
-            <TableColumn style={{ textAlign: 'right' }}>In Transit</TableColumn>
-            <TableColumn style={{ textAlign: 'right' }}>Total</TableColumn>
+            <TableColumn>Metadata</TableColumn>
+            <TableColumn style={{ textAlign: 'right' }}>Materials</TableColumn>
+            <TableColumn style={{ textAlign: 'right' }}>History</TableColumn>
+            <TableColumn style={{ textAlign: 'right' }}>Sharing</TableColumn>
+            {/* <TableColumn style={{ textAlign: 'right' }}>Total</TableColumn>
             <TableColumn style={{ textAlign: 'right' }}>W/S</TableColumn>
-            <TableColumn style={{ textAlign: 'right' }}>Sell</TableColumn>
+            <TableColumn style={{ textAlign: 'right' }}>Sell</TableColumn> */}
           </TableRow>
 
           <TableRow>
@@ -142,7 +142,7 @@ const AS400 = () => {
           </TableRow>
 
           <TableRow style={{ textAlign: 'right' }}>
-            <TableColumn>&nbsp;&nbsp;&nbsp;&nbsp;01 SEATTLE</TableColumn>
+            <TableColumn>&nbsp;&nbsp;&nbsp;&nbsp;FiE</TableColumn>
             <TableColumn>0</TableColumn>
             <TableColumn>0</TableColumn>
             <TableColumn>0</TableColumn>

@@ -1,3 +1,5 @@
+'use client';
+
 import styles from '@components/page/DefaultLayout.module.scss';
 
 import * as React from 'react';
